@@ -14,16 +14,16 @@ jQuery(function ($) {
     // One Page Navigation
     // --------------------------------------------------------------------
 
-    (function () {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() >= 50) {
-                $('nav.navbar').addClass('sticky-nav');
-            }
-            else {
-                $('nav.navbar').removeClass('sticky-nav');
-            }
-        });
-    }());
+    // (function () {
+    //     $(window).scroll(function () {
+    //         if ($(this).scrollTop() >= 50) {
+    //             $('nav.navbar').addClass('sticky-nav');
+    //         }
+    //         else {
+    //             $('nav.navbar').removeClass('sticky-nav');
+    //         }
+    //     });
+    // }());
 
     // --------------------------------------------------------------------
     // jQuery for page scrolling feature - requires jQuery Easing plugin
