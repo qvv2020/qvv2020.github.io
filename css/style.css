@@ -94,7 +94,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #fd367e;
+    color              : #87CEFA;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -123,6 +123,7 @@ p {
 p.lead {
     font-size   : 19px;
     line-height : 1.7em;
+    font-weight : bold;
     }
 
 ul {
@@ -346,7 +347,7 @@ button:focus,
  *-------------------*/
 
 .jumbotron {
-    background            : url("../img/img-jumbotron-bg.jpg");
+    background            : url("../img/background.jpg");
     background-size       : cover;
     padding               : 0;
     margin                : 0;
@@ -389,6 +390,7 @@ button:focus,
 .jumbotron .content .event-date {
     font-size     : 24px;
     margin-bottom : 40px;
+    font-weight : bold;
     }
 
 .jumbotron .btn {
