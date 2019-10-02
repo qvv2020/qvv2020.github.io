@@ -94,7 +94,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #87CEFA;
+    color              : #24ABFF;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -123,7 +123,7 @@ p {
 p.lead {
     font-size   : 19px;
     line-height : 1.7em;
-    font-weight : bold;
+/*    font-weight : bold;*/
     }
 
 ul {
@@ -347,7 +347,7 @@ button:focus,
  *-------------------*/
 
 .jumbotron {
-    background            : url("../img/background.jpg");
+    background            : url("../img/background_5.jpg");
     background-size       : cover;
     padding               : 0;
     margin                : 0;
@@ -384,7 +384,7 @@ button:focus,
 .jumbotron .content p.lead {
     font-size   : 24px;
     line-height : 1.5em;
-    color       : rgba(255, 255, 255, .7);
+    color       : rgba(255, 255, 255, 1);
     }
 
 .jumbotron .content .event-date {
@@ -755,3 +755,29 @@ button:focus,
     text-align : center;
     top        : 65%;
     }
+
+	.overlay {
+
+	 line-height: 1.5em;
+	 text-shadow: 2px 2px 2px #000;
+	 text-align: center;
+	 
+	}
+
+.intro { 
+	  background-color: #00003e;
+	  color: #fff; 
+	  display: inline;
+	  padding: 0.5rem;
+  
+	  /* Needs prefixing */
+	  -webkit-box-decoration-break: clone;
+	  box-decoration-break: clone;
+	}
+	
+	.underline-blue {
+		
+	border-bottom: 2px solid;
+	  border-bottom-color: #00003e;
+	}
+	
